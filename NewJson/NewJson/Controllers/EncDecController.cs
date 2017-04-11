@@ -50,5 +50,13 @@ namespace NewJson.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// 对称加密
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult AESDES()
+        {
+            return View();
+        }
 	}
 }

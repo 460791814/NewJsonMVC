@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@ViewBag.Title - newjson.com</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <!-- #include file="/Template/header.html" -->
+</head>
+<body>
+    <div id="wrapper">
+        <!-- #include file="/Template/navbarheader.html" -->
+        <div id="page-wrapper">
+            <div style="margin-bottom: 30px; margin-bottom: 20px; background-color: #fff; border: 1px solid transparent;"></div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Exel转Json格式,Csv转Json格式
+                    </div>
+                <div class="panel-body">
+                    ddddddddd
+                    <!--@RenderBody()-->
+                </div>
+                </div>
+
+
+           
+        </div>
+    </div>
+    </div>
+    <!-- #include file="/Template/footer.html" -->
+</body>
+</html>

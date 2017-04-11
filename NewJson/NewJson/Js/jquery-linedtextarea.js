@@ -122,7 +122,9 @@
 				var scrollTop 		= textarea[0].scrollTop;
 				var clientHeight 	= textarea[0].clientHeight;
 				codeLinesDiv.css( {'margin-top': (-1*scrollTop) + "px"} );
-				lineNo = fillOutLines( codeLinesDiv, scrollTop + clientHeight, lineNo );
+				lineNo = fillOutLines(codeLinesDiv, scrollTop + clientHeight, lineNo);
+
+			   
 			},10);
 				
 		});
@@ -137,5 +139,6 @@
 $(function () {
     $(".json_input").linedtextarea({ selectedClass: 'lineselect' })
     $(".json_input")[0].focus();
+ 
 })
 })(jQuery);

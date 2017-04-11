@@ -733,6 +733,11 @@
     <Content Include="Js\devtool\xml.js" />
     <Content Include="Js\docs\farbtastic.js" />
     <Content Include="Js\embed.js" />
+    <Content Include="Js\encdec\aesdes\aes.js" />
+    <Content Include="Js\encdec\aesdes\core-min.js" />
+    <Content Include="Js\encdec\aesdes\rabbit.js" />
+    <Content Include="Js\encdec\aesdes\rc4.js" />
+    <Content Include="Js\encdec\aesdes\tripledes.js" />
     <Content Include="Js\encdec\base64.js" />
     <Content Include="Js\encdec\htpaaword_md5.js" />
     <Content Include="Js\encdec\htpaaword_sha1.js" />
@@ -1489,7 +1494,11 @@
     <Content Include="Template\footer.html" />
     <Content Include="Template\header.html" />
     <Content Include="Static\Json\jsonlint.html" />
+    <None Include="Static\Dic\PCKeyCode.shtml" />
+    <Content Include="Static\Dic\AndroidKeyCode.shtml" />
+    <None Include="Template\moban.shtml" />
     <Content Include="Template\nav.html" />
+    <Content Include="Template\navbarheader.html" />
     <Content Include="Views\Tools\ewm.htm" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -1647,6 +1656,7 @@
     <Content Include="Static\UI\PhoneSize.html" />
     <Content Include="Views\Json\JsonView.cshtml" />
     <Content Include="Views\Json\Json2Model.cshtml" />
+    <Content Include="Views\EncDec\AESDES.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

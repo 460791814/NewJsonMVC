@@ -327,8 +327,7 @@ Ext.onReady(function () {
 			'->',
 			{text: '回到首页', handler: function(){
         window.location.href="http://www.newjson.com/";
-			}},
-			{text: '关于', handler: aboutWindow}
+			}}
 		],
 		items: edit
 	};
