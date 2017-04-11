@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>@ViewBag.Title - newjson.com</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="/Skins/admin2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="/Skins/admin2/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/Skins/admin2/dist/css/sb-admin-2.css" rel="stylesheet">
+ 
+    <!-- Custom Fonts -->
+    <link href="/Skins/admin2/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style>
+      .menudisable {
+       display:none
+      }
+      h4 {
+          font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+          font-size: 14px;
+          line-height: 1.42857143;
+          margin-top: 0px;
+          margin-bottom: 0px;
+      }
+      .media-heading {
+          margin-bottom: 0px;
+      }
+      .top10 {
+      margin-top:10px;
+      }
+ 
+  </style>
+    @RenderSection("header",false)
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">NewJson</a>
+            </div>
+            <!-- /.navbar-header -->
+            @Html.Partial("_navbarheader")
+            <!-- /.navbar-top-links -->
+            @Html.Partial("_navbarside")
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div id="page-wrapper">
+            <div style="margin-bottom: 30px; margin-bottom: 20px; background-color: #fff; border: 1px solid transparent;"></div>
+            @RenderBody()
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script type='text/javascript' src='/Js/jquery.min.js'></script>
+ 
+    @*<script src="/Skins/admin2/vendor/jquery/jquery.min.js"></script>*@
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/Skins/admin2/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/Skins/admin2/vendor/metisMenu/metisMenu.min.js"></script>
+   <script>
+       $("#dropdownsearch").keyup(function () {
+           var searchText = $(this).val().toLowerCase();
+           var searchHtml="";
+           $("[nj-nav]").each(function () {
+               var text = $(this).html().toLowerCase();
+               var tag = $(this).attr("target");
+               var f=$(this).attr("href");
+               if (text.indexOf(searchText) > -1) {
+                   searchHtml += "<li><a target=\"" + tag + "\" href=\"" + f + "\">" + text + "</a></li>";
+               }
+           })
+           $("#dropdownsearchmenu").html(searchHtml);
+           $("#dropdownsearchmenu").show();
+       
+       })
+       $("#dropdownsearch").keydown(function (event) {
+           var e = event || window.event || arguments.callee.caller.arguments[0];
+           if (e && e.keyCode == 40) { // 按 Esc 
+               $("#btn_header_type").click();
+               return;
+           }
+           
+       })
+       $(document).click(function () {
+           $("#dropdownsearchmenu").hide();
+       })
+   </script>
+    <!-- Custom Theme JavaScript -->
+  
+    @RenderSection("scripts", false)
+    <script src="/Skins/admin2/dist/js/sb-admin-2.js"></script>
+
+    <div style="display:none">
+        <script src="http://s11.cnzz.com/stat.php?id=1257658599&web_id=1257658599" language="JavaScript"></script>
+    </div>
+</body>
+</html>
