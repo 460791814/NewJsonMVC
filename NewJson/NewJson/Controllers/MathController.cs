@@ -69,6 +69,10 @@ namespace NewJson.Controllers
         {
             return View();
         }
+        public ActionResult Calculator()
+        {
+            return View();
+        }
    
     }
 }

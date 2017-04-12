@@ -1222,6 +1222,7 @@
     <Content Include="Js\ui\blob.js" />
     <Content Include="Js\ui\canvas-toblob.js" />
     <Content Include="Js\ui\filesaver.js" />
+    <Content Include="Js\ui\htmlescape\underscore-min.js" />
     <Content Include="Js\ui\libcanvas.js" />
     <Content Include="Js\ui\qiniu.min.js" />
     <Content Include="Js\uploadify\Change Log.txt" />
@@ -1615,7 +1616,7 @@
     <Content Include="Views\UI\SafeColor.cshtml" />
     <Content Include="Views\UI\Ueditor.cshtml" />
     <Content Include="Views\UI\UseColor.cshtml" />
-    <Content Include="Views\Tools\Calculator.cshtml" />
+    <Content Include="Views\Math\Calculator.cshtml" />
     <Content Include="Static\Tools\Diff.html" />
     <Content Include="Views\Tools\FuHao.cshtml" />
     <Content Include="Static\Tools\GpsMap.html" />
@@ -1659,6 +1660,8 @@
     <Content Include="Views\EncDec\AESDES.cshtml" />
     <Content Include="Views\EncDec\RandomPassword.cshtml" />
     <Content Include="Views\EncDec\CreateUUID.cshtml" />
+    <Content Include="Views\UI\Html2Js.cshtml" />
+    <Content Include="Views\UI\HtmlEscape.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

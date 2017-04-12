@@ -41,6 +41,13 @@ namespace NewJson.Controllers
         {
             return View();
         }
-
+        public ActionResult Html2Js()
+        {
+            return View();
+        }
+        public ActionResult HtmlEscape()
+        {
+            return View();
+        }
     }
 }

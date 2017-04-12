@@ -9,10 +9,7 @@ namespace NewJson.Controllers
     public class ToolsController : Controller
     {
         // GET: Tools
-        public ActionResult Calculator()
-        {
-            return View();
-        }
+
         public ActionResult FuHao()
         {
             return View();

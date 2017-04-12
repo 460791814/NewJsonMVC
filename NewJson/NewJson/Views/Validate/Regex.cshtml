@@ -207,7 +207,11 @@
                                     <li><a href="javascript:;" title="^-[1-9]\d*|0$">匹配非正整数（负整数 + 0）</a> </li>
                                     <li><a href="javascript:;" title="^[1-9]\d*\.\d*|0\.\d*[1-9]\d*$">匹配正浮点数</a> </li>
                                     <li><a href="javascript:;" title="^-[1-9]\d*\.\d*|-0\.\d*[1-9]\d*$">匹配负浮点数</a> </li>
-                                </ul>
+                                    <li>
+                                        <a href="javascript:void(0)" title="\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b">匹配IP</a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" title="^[\u4e00-\u9fa5A-Za-z0-9_]+$">匹配数字,字母,下划线,中文</a></li>
+</ul>
                             </div>
                         </div>
                         <input type="checkbox" value="global" checked="checked" id="optionGlobal" name="optionGlobl">全局搜索
@@ -227,7 +231,7 @@
             </div>
         </div>
     </div>
-    <div class="panel panel-default">
+    @*<div class="panel panel-default">
         <div class="panel-heading">
             <div class="media">
                 <div class="media-body">
@@ -262,12 +266,11 @@
                     <a href="javascript:;" title="^-[1-9]\d*|0$">匹配非正整数（负整数 + 0）</a>
                     <a href="javascript:;" title="^[1-9]\d*\.\d*|0\.\d*[1-9]\d*$">匹配正浮点数</a>
                     <a href="javascript:;" title="^-[1-9]\d*\.\d*|-0\.\d*[1-9]\d*$">匹配负浮点数</a>
-                    <a href="javascript:void(0)" title="\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b">匹配IP</a>
-                    <a href="javascript:void(0)" title="^[\u4e00-\u9fa5A-Za-z0-9_]+$">匹配数字,字母,下划线,中文</a>
+                   
                 </p>
             </div>
         </div>
-    </div>
+    </div>*@
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="media">
