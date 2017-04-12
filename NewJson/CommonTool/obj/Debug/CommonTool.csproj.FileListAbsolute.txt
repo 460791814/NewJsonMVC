@@ -16,3 +16,4 @@ F:\Code\NewJsonMVC\NewJson\CommonTool\bin\Debug\CommonTool.pdb
 F:\Code\NewJsonMVC\NewJson\CommonTool\obj\Debug\CommonTool.dll
 F:\Code\NewJsonMVC\NewJson\CommonTool\obj\Debug\CommonTool.pdb
 D:\Code\Web\NewJsonMVC\NewJson\CommonTool\obj\Debug\CommonTool.csprojResolveAssemblyReference.cache
+F:\Code\NewJsonMVC\NewJson\CommonTool\obj\Debug\CommonTool.csprojResolveAssemblyReference.cache

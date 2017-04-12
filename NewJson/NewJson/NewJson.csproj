@@ -252,7 +252,7 @@
     <Content Include="Css\tools\fuhao\fuhao.css" />
     <Content Include="Css\tools\gpsmap\searchinfowindow_min.css" />
     <Content Include="Css\tools\gpsmap\style.css" />
-    <Content Include="Css\tools_safecolor.css" />
+    <Content Include="Css\ui\safecolor\tools_safecolor.css" />
     <Content Include="Css\ui\alloyphoto\bar.style.css" />
     <Content Include="Css\ui\alloyphoto\main.css" />
     <Content Include="Css\ui\placeholder.almost-flat.min.css" />
@@ -1657,6 +1657,8 @@
     <Content Include="Views\Json\JsonView.cshtml" />
     <Content Include="Views\Json\Json2Model.cshtml" />
     <Content Include="Views\EncDec\AESDES.cshtml" />
+    <Content Include="Views\EncDec\RandomPassword.cshtml" />
+    <Content Include="Views\EncDec\CreateUUID.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

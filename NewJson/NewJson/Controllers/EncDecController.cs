@@ -58,5 +58,16 @@ namespace NewJson.Controllers
         {
             return View();
         }
-	}
+        public ActionResult RandomPassword()
+        {
+            ViewBag.randomcharset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~!@#$%^&*()_+";
+            ViewBag.symbols = "~!@#$%^&*()_+";
+            return View();
+        }
+        public ActionResult CreateUUID()
+        {
+
+            return View();
+        }
+    }
 }

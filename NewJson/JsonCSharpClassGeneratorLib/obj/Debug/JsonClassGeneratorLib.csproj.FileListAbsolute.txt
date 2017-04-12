@@ -41,3 +41,4 @@ F:\Code\NewJsonMVC\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGenera
 F:\Code\NewJsonMVC\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.dll
 F:\Code\NewJsonMVC\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\Xamasoft.JsonClassGenerator.pdb
 D:\Code\Web\NewJsonMVC\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csprojResolveAssemblyReference.cache
+F:\Code\NewJsonMVC\NewJson\JsonCSharpClassGeneratorLib\obj\Debug\JsonClassGeneratorLib.csprojResolveAssemblyReference.cache
