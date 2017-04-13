@@ -159,6 +159,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ChangeController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DocsController.cs" />
@@ -191,6 +192,29 @@
     <Content Include="Content\app.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Css\admin\robots\css\all-base.css" />
+    <Content Include="Css\admin\robots\css\publicstyle.css" />
+    <Content Include="Css\admin\robots\css\toolstyle.css" />
+    <Content Include="Css\admin\robots\img\404error.png" />
+    <Content Include="Css\admin\robots\img\agg.gif" />
+    <Content Include="Css\admin\robots\img\agg01.gif" />
+    <Content Include="Css\admin\robots\img\code_arrow.png" />
+    <Content Include="Css\admin\robots\img\ico-del.png" />
+    <Content Include="Css\admin\robots\img\ico-navnew.png" />
+    <Content Include="Css\admin\robots\img\icon-wbes-allbg.jpg" />
+    <Content Include="Css\admin\robots\img\icon-wbes-jibaibg.png" />
+    <Content Include="Css\admin\robots\img\icon-wbes-lsbg.jpg" />
+    <Content Include="Css\admin\robots\img\icon-wbes-tips.png" />
+    <Content Include="Css\admin\robots\img\iconsprite_btbar.png" />
+    <Content Include="Css\admin\robots\img\navbarbg.png" />
+    <Content Include="Css\admin\robots\img\nbarbg.png" />
+    <Content Include="Css\admin\robots\img\quickdelete.png" />
+    <Content Include="Css\admin\robots\img\seo-new.gif" />
+    <Content Include="Css\admin\robots\img\seo-new02.gif" />
+    <Content Include="Css\admin\robots\img\sorticon.png" />
+    <Content Include="Css\admin\robots\img\ticon.png" />
+    <Content Include="Css\admin\robots\img\tool-pus.png" />
+    <Content Include="Css\admin\robots\img\tooldown.png" />
     <Content Include="Css\bootstrap.css" />
     <Content Include="Css\bootstrap.min.css" />
     <Content Include="Css\change\all-base.css" />
@@ -645,6 +669,9 @@
     <Content Include="Images\warning.png" />
     <Content Include="Images\wordpress-blue.png" />
     <Content Include="Images\yes.png" />
+    <Content Include="Js\admin\meta\metajs.js" />
+    <Content Include="Js\admin\robots\jq-public.js" />
+    <Content Include="Js\admin\robots\robot.js" />
     <Content Include="Js\bejsoncommon.js" />
     <Content Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.css" />
     <Content Include="Js\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css" />
@@ -1662,6 +1689,8 @@
     <Content Include="Views\EncDec\CreateUUID.cshtml" />
     <Content Include="Views\UI\Html2Js.cshtml" />
     <Content Include="Views\UI\HtmlEscape.cshtml" />
+    <Content Include="Views\Admin\Meta.cshtml" />
+    <Content Include="Views\Admin\Robots.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
