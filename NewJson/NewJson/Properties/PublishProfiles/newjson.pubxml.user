@@ -13,7 +13,7 @@
       <publishTime>04/04/2017 22:08:03</publishTime>
     </File>
     <File Include="bin/CommonTool.dll">
-      <publishTime>04/10/2017 22:03:08</publishTime>
+      <publishTime>04/16/2017 11:56:03</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>04/04/2017 22:08:05</publishTime>
@@ -61,7 +61,7 @@
       <publishTime>04/04/2017 22:08:03</publishTime>
     </File>
     <File Include="bin/NewJson.dll">
-      <publishTime>04/11/2017 23:11:53</publishTime>
+      <publishTime>04/16/2017 11:56:09</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>04/05/2017 23:05:20</publishTime>
@@ -168,6 +168,75 @@
     <File Include="Content/Site.css">
       <publishTime>04/04/2017 22:08:05</publishTime>
     </File>
+    <File Include="Css/admin/robots/css/all-base.css">
+      <publishTime>04/16/2017 10:54:31</publishTime>
+    </File>
+    <File Include="Css/admin/robots/css/publicstyle.css">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/css/toolstyle.css">
+      <publishTime>04/16/2017 11:04:05</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/404error.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/agg.gif">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/agg01.gif">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/code_arrow.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/ico-del.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/ico-navnew.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/icon-wbes-allbg.jpg">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/icon-wbes-jibaibg.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/icon-wbes-lsbg.jpg">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/icon-wbes-tips.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/iconsprite_btbar.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/navbarbg.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/nbarbg.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/quickdelete.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/seo-new.gif">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/seo-new02.gif">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/sorticon.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/ticon.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/tool-pus.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
+    <File Include="Css/admin/robots/img/tooldown.png">
+      <publishTime>04/13/2017 23:34:55</publishTime>
+    </File>
     <File Include="Css/bootstrap.css">
       <publishTime>04/05/2017 20:23:06</publishTime>
     </File>
@@ -175,7 +244,7 @@
       <publishTime>04/05/2017 20:23:06</publishTime>
     </File>
     <File Include="Css/change/all-base.css">
-      <publishTime>04/05/2017 20:21:00</publishTime>
+      <publishTime>04/12/2017 20:01:44</publishTime>
     </File>
     <File Include="Css/change/publicstyle.css">
       <publishTime>04/05/2017 20:21:00</publishTime>
@@ -319,7 +388,7 @@
       <publishTime>04/05/2017 20:21:00</publishTime>
     </File>
     <File Include="Css/screen.css">
-      <publishTime>04/05/2017 20:21:00</publishTime>
+      <publishTime>04/12/2017 20:01:44</publishTime>
     </File>
     <File Include="Css/self.css">
       <publishTime>04/05/2017 20:21:00</publishTime>
@@ -378,11 +447,14 @@
     <File Include="Css/ui/progress.almost-flat.min.css">
       <publishTime>04/05/2017 20:21:00</publishTime>
     </File>
+    <File Include="Css/ui/safecolor/tools_safecolor.css">
+      <publishTime>04/12/2017 20:01:44</publishTime>
+    </File>
     <File Include="Css/ui/uikit.almost-flat.min.css">
       <publishTime>04/05/2017 20:21:00</publishTime>
     </File>
     <File Include="Css/validate/all-base.css">
-      <publishTime>04/05/2017 20:21:00</publishTime>
+      <publishTime>04/12/2017 20:01:44</publishTime>
     </File>
     <File Include="Css/validate/publicstyle.css">
       <publishTime>04/05/2017 20:21:00</publishTime>
@@ -1556,6 +1628,15 @@
     </File>
     <File Include="Images/yes.png">
       <publishTime>04/05/2017 20:21:03</publishTime>
+    </File>
+    <File Include="Js/admin/meta/metajs.js">
+      <publishTime>04/13/2017 22:24:54</publishTime>
+    </File>
+    <File Include="Js/admin/robots/jq-public.js">
+      <publishTime>04/13/2017 23:41:13</publishTime>
+    </File>
+    <File Include="Js/admin/robots/robot.js">
+      <publishTime>04/13/2017 23:38:57</publishTime>
     </File>
     <File Include="Js/bejsoncommon.js">
       <publishTime>04/05/2017 20:20:51</publishTime>
@@ -3429,6 +3510,9 @@
     <File Include="Js/ui/filesaver.js">
       <publishTime>04/05/2017 20:20:59</publishTime>
     </File>
+    <File Include="Js/ui/htmlescape/underscore-min.js">
+      <publishTime>04/12/2017 22:06:30</publishTime>
+    </File>
     <File Include="Js/ui/libcanvas.js">
       <publishTime>04/05/2017 20:20:59</publishTime>
     </File>
@@ -3766,7 +3850,7 @@
       <publishTime>04/04/2017 22:11:09</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>04/11/2017 22:55:44</publishTime>
+      <publishTime>04/13/2017 23:41:14</publishTime>
     </File>
     <File Include="Skins/admin2/data/flot-data.js">
       <publishTime>04/05/2017 20:30:42</publishTime>
@@ -4215,6 +4299,9 @@
     <File Include="Static/Dic/AndroidKeyCode.shtml">
       <publishTime>04/11/2017 22:01:50</publishTime>
     </File>
+    <File Include="Static/Dic/AndroidManifest.shtml">
+      <publishTime>04/16/2017 11:55:52</publishTime>
+    </File>
     <File Include="Static/Json/jsoncn.html">
       <publishTime>04/09/2017 00:21:43</publishTime>
     </File>
@@ -4258,7 +4345,13 @@
       <publishTime>04/11/2017 22:01:25</publishTime>
     </File>
     <File Include="Template/navbarheader.html">
-      <publishTime>04/11/2017 23:11:28</publishTime>
+      <publishTime>04/16/2017 11:53:14</publishTime>
+    </File>
+    <File Include="Views/Admin/Meta.cshtml">
+      <publishTime>04/13/2017 23:01:04</publishTime>
+    </File>
+    <File Include="Views/Admin/Robots.cshtml">
+      <publishTime>04/16/2017 11:33:49</publishTime>
     </File>
     <File Include="Views/Change/FullHalf.cshtml">
       <publishTime>04/06/2017 22:07:00</publishTime>
@@ -4344,6 +4437,9 @@
     <File Include="Views/EncDec/Base64.cshtml">
       <publishTime>04/06/2017 20:58:06</publishTime>
     </File>
+    <File Include="Views/EncDec/CreateUUID.cshtml">
+      <publishTime>04/12/2017 20:01:44</publishTime>
+    </File>
     <File Include="Views/EncDec/Escape.cshtml">
       <publishTime>04/06/2017 20:58:06</publishTime>
     </File>
@@ -4358,6 +4454,9 @@
     </File>
     <File Include="Views/EncDec/Morse.cshtml">
       <publishTime>04/06/2017 20:58:06</publishTime>
+    </File>
+    <File Include="Views/EncDec/RandomPassword.cshtml">
+      <publishTime>04/12/2017 21:19:18</publishTime>
     </File>
     <File Include="Views/EncDec/SHA.cshtml">
       <publishTime>04/06/2017 20:58:06</publishTime>
@@ -4393,7 +4492,7 @@
       <publishTime>04/06/2017 21:25:57</publishTime>
     </File>
     <File Include="Views/Json/Json2Model.cshtml">
-      <publishTime>04/09/2017 01:10:52</publishTime>
+      <publishTime>04/12/2017 20:01:44</publishTime>
     </File>
     <File Include="Views/Json/JsonCheck.cshtml">
       <publishTime>04/10/2017 22:38:11</publishTime>
@@ -4418,6 +4517,9 @@
     </File>
     <File Include="Views/Math/Area.cshtml">
       <publishTime>04/06/2017 20:06:22</publishTime>
+    </File>
+    <File Include="Views/Math/Calculator.cshtml">
+      <publishTime>04/12/2017 22:55:03</publishTime>
     </File>
     <File Include="Views/Math/DataStore.cshtml">
       <publishTime>04/06/2017 20:06:22</publishTime>
@@ -4465,10 +4567,10 @@
       <publishTime>04/11/2017 21:17:14</publishTime>
     </File>
     <File Include="Views/Shared/_navbarheader.cshtml">
-      <publishTime>04/11/2017 22:13:13</publishTime>
+      <publishTime>04/13/2017 22:39:33</publishTime>
     </File>
     <File Include="Views/Shared/_navbarside.cshtml">
-      <publishTime>04/11/2017 23:11:10</publishTime>
+      <publishTime>04/16/2017 11:52:40</publishTime>
     </File>
     <File Include="Views/Tools/Calculator.cshtml">
       <publishTime>04/06/2017 20:06:22</publishTime>
@@ -4483,13 +4585,19 @@
       <publishTime>04/06/2017 23:03:12</publishTime>
     </File>
     <File Include="Views/Tools/TextEditor.cshtml">
-      <publishTime>04/06/2017 20:58:06</publishTime>
+      <publishTime>04/12/2017 23:00:03</publishTime>
     </File>
     <File Include="Views/Tools/WordCounter.cshtml">
-      <publishTime>04/06/2017 20:58:06</publishTime>
+      <publishTime>04/12/2017 20:01:44</publishTime>
     </File>
     <File Include="Views/UI/BorderRadius.cshtml">
       <publishTime>04/06/2017 20:58:06</publishTime>
+    </File>
+    <File Include="Views/UI/Html2Js.cshtml">
+      <publishTime>04/12/2017 22:28:09</publishTime>
+    </File>
+    <File Include="Views/UI/HtmlEscape.cshtml">
+      <publishTime>04/12/2017 22:27:45</publishTime>
     </File>
     <File Include="Views/UI/ImageResize.cshtml">
       <publishTime>04/06/2017 20:06:23</publishTime>
@@ -4504,7 +4612,7 @@
       <publishTime>04/06/2017 22:21:43</publishTime>
     </File>
     <File Include="Views/UI/SafeColor.cshtml">
-      <publishTime>04/06/2017 20:44:18</publishTime>
+      <publishTime>04/12/2017 20:01:44</publishTime>
     </File>
     <File Include="Views/UI/Ueditor.cshtml">
       <publishTime>04/06/2017 22:31:11</publishTime>
@@ -4513,7 +4621,7 @@
       <publishTime>04/06/2017 20:58:06</publishTime>
     </File>
     <File Include="Views/Validate/Regex.cshtml">
-      <publishTime>04/06/2017 22:58:36</publishTime>
+      <publishTime>04/12/2017 23:03:00</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/04/2017 22:07:55</publishTime>

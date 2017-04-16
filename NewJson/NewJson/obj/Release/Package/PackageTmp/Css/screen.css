@@ -1,7 +1,4 @@
 ﻿
-h1.compress {
-	letter-spacing: -0.1em;
-}
 
 .json_input {
 	width: 100%;
@@ -57,23 +54,7 @@ h1.compress {
 	border-width: 2px !important;
 }
 
-a:hover { cursor: pointer; }
 
-
-/* Overriding of wacky blueprint CSS attributes */
-
-a {
-	text-decoration: none;
-	color: #36C;
-}
-
-em {
-	background-color: transparent !important;
-}
-
-input.text, input.title {
-	width: auto;
-}
 
 #faq {
 	border: 2px solid #CCC;

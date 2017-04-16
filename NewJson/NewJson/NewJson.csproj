@@ -1522,6 +1522,7 @@
     <Content Include="Template\footer.html" />
     <Content Include="Template\header.html" />
     <Content Include="Static\Json\jsonlint.html" />
+    <Content Include="Static\Dic\AndroidManifest.shtml" />
     <None Include="Static\Dic\PCKeyCode.shtml" />
     <Content Include="Static\Dic\AndroidKeyCode.shtml" />
     <None Include="Template\moban.shtml" />
