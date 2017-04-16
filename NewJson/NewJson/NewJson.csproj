@@ -1261,6 +1261,8 @@
     <Content Include="Js\uploadify\uploadify.swf" />
     <Content Include="Js\uploadify\__MACOSX\._Change Log.txt" />
     <Content Include="Js\uploadify\__MACOSX\._uploadify.swf" />
+    <Content Include="Js\validate\jq-public.js" />
+    <Content Include="Js\validate\regex.js" />
     <Content Include="Js\zeroclipboard.js" />
     <Content Include="Js\ZeroClipboard.swf" />
     <Content Include="Js\zeroclipboard1.2\zeroclipboard.js" />

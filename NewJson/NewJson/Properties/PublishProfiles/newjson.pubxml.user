@@ -61,7 +61,7 @@
       <publishTime>04/04/2017 22:08:03</publishTime>
     </File>
     <File Include="bin/NewJson.dll">
-      <publishTime>04/16/2017 11:56:09</publishTime>
+      <publishTime>04/16/2017 13:19:53</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>04/05/2017 23:05:20</publishTime>
@@ -454,7 +454,7 @@
       <publishTime>04/05/2017 20:21:00</publishTime>
     </File>
     <File Include="Css/validate/all-base.css">
-      <publishTime>04/12/2017 20:01:44</publishTime>
+      <publishTime>04/16/2017 12:19:07</publishTime>
     </File>
     <File Include="Css/validate/publicstyle.css">
       <publishTime>04/05/2017 20:21:00</publishTime>
@@ -3555,6 +3555,12 @@
     <File Include="Js/uploadify/__MACOSX/._uploadify.swf">
       <publishTime>04/05/2017 20:21:00</publishTime>
     </File>
+    <File Include="Js/validate/jq-public.js">
+      <publishTime>04/16/2017 13:13:07</publishTime>
+    </File>
+    <File Include="Js/validate/regex.js">
+      <publishTime>04/16/2017 13:17:09</publishTime>
+    </File>
     <File Include="Js/zeroclipboard.js">
       <publishTime>04/05/2017 20:21:00</publishTime>
     </File>
@@ -3850,7 +3856,7 @@
       <publishTime>04/04/2017 22:11:09</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>04/13/2017 23:41:14</publishTime>
+      <publishTime>04/16/2017 13:13:17</publishTime>
     </File>
     <File Include="Skins/admin2/data/flot-data.js">
       <publishTime>04/05/2017 20:30:42</publishTime>
@@ -4621,7 +4627,7 @@
       <publishTime>04/06/2017 20:58:06</publishTime>
     </File>
     <File Include="Views/Validate/Regex.cshtml">
-      <publishTime>04/12/2017 23:03:00</publishTime>
+      <publishTime>04/16/2017 13:19:17</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/04/2017 22:07:55</publishTime>
