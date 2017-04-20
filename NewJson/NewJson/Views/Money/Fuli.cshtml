@@ -3,8 +3,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section header{
-    <meta name="Keywords" content="在线复利计算器,复利计算器在线">
-    <meta name="Description" content="在线复利计算器,复利计算器在线">
+    <meta name="Keywords" content="在线复利计算器,复利计算器在线,72法则">
+    <meta name="Description" content="在线复利计算器,复利计算器在线,72法则">
+   <style>
+       p {
+           text-indent: 2em;
+           line-height: 29px;
+       }
+    </style>
 }
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -670,13 +676,13 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                <div style="text-align: left; text-indent: 2em;">
+                <p style="text-align: left; text-indent: 2em;">
                             追加期初投资复利计算器所采用的是复利计算公式进行计算复利现值，期初投资允许第二个期限初追加投资，比如第二年，你可再投入多少元，不追加时，可不填写。
                             在收益率处选择期限类型（年度/季度/月度）和输入该期限下的利率。如果计算的期限超过30，可以把30期限后计算的期末总资产再填入期初投资，计算余下的期限。<br /><fontcolor="#3300FF"><br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如:需要计算的是59年的本金与收益之和，那么操作方法：<br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）、收益率选择年度，先计算30年；<br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）、再把30年后的期末总资产与第31年追加的投资进行想加，将得到的值填写到第一年度的期初投资，依此类推，相应填入后续投资，然后进行计算，直到计算到第29年的期末总资产，也就是最终的59年的收益与本金和。按照此法，无论计算多少年，如法炮制即可。</font><br>
-                            &nbsp;</div>
+                            &nbsp;</p>
                 </div>
                 </div>
         <div class="panel panel-default">
@@ -710,12 +716,29 @@
                             <h3>
                                 复利计算器名片</h3>
                         </legend>
-                        <p style="padding-left: 10px; text-indent: 2em;">
+                        <p style="padding-left: 10px; ">
                             复利计算器又叫复利终值计算器或复利现值计算器。严格按照最新复利计算公式准确无误的计算现值复利。复利计算值可以精确到小数点后四位，也可以通过复利终值来计算本金，这个时候的复利终值精确到小数点后两位，而本金则可以计算到小数点后四位。复利终值计算器是计算以复利方式记息的终值或现值。复利的计算是考虑前一期利息再生利息的问题，要计入本金重复计息，即“利生利”“利滚利”。
                         </p>
                     </fieldset>
                 </div>
                 </div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        理财常出现“72法则”是什么意思？
+        </div>
+        <div class="panel-body">
+            <p >
+                所谓的“72法则”就是以1%的复利来计息，经过72年以后，你的本金就会变成原来的一倍。这个公式好用的地方在于它能以一推十，例如：利用5%年报酬率的投资工具，经过14.4年(72/5)本金就变成一倍；利用12%的投资工具，则要六年左右(72/12)，才能让一块钱变成二块钱。
+            </p>
+            <p >
+                因此，今天如果你手中有100万元，运用了报酬率15%的投资工具，你可以很快便知道，经过约4.8年，你的100万元就会变成200万元。
+            </p>
+            <p >
+                虽然利用72法则不像查表计算那么精确，但也已经十分接近了，因此当你手中少了一份复利表时，记住简单的72法则，或许能够帮你不少的忙。
+            </p>
+</div>
+    </div>
+ 
                             <script src="/Js/change/checkdata.js" type="text/javascript"></script>
 
             <script src="/Js/change/numeral.min.js" type="text/javascript"></script>
