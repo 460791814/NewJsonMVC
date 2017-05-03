@@ -1,0 +1,179 @@
+﻿
+@{
+    ViewBag.Title = "InCome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section header{
+<title>在线年收益率计算器 - newjson.com</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+    <style>
+        input {
+            max-width: 500px;
+        }
+    </style>
+}
+<div class="panel panel-default">
+    <div class="panel-heading">
+       根据本金+年份+目标金额计算年平均收益率
+    </div>
+    <div class="panel-body">
+        <form name='cal0' onSubmit="Cal0(this);return false;">
+            <div class="form-group ">
+                <label>初始投资金额<span style="color:red">(元)</span>：</label>
+                <input type="text" class="form-control" name="a" placeholder="初始投资金额">
+            </div>
+            <div class="form-group">
+                <label>投资年限<span style="color:red">(年)</span>：</label>
+                <input type="text" class="form-control" name="b" placeholder="投资年限">
+            </div>
+            <div class="form-group">
+                <label>实现本金加收益<span style="color:red">(元)</span>：</label>
+                <input type="text" class="form-control" name="c" placeholder="本金加收益">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">计算结果</button>
+            </div>
+            <div class="form-group">
+                <label>你的年平均收益率为<span style="color:red">(%)</span>：</label>
+                <input type="text" class="form-control" name="i" placeholder="这里显示结果">
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        根据本金+年收益率+目标收益计算需要的年份
+    </div>
+    <div class="panel-body">
+        <form name='cal2' onSubmit="Cal2(this);return false;">
+            <div class="form-group">
+                <label>初始投资金额<span style="color:red">(元)</span>：</label>
+                <input class="form-control" name="a" placeholder="初始投资金额">
+            </div>
+            <div class="form-group">
+                <label>欲实现本金加收益共<span style="color:red">(元)</span>：</label>
+                <input class="form-control" name="c" placeholder="目标金额">
+            </div>
+            <div class="form-group">
+                <label>预期年投资收益率<span style="color:red">(%)</span>：</label>
+                <input class="form-control" name="i" placeholder="预期年投资收益率">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">计算结果</button>
+            </div>
+            <div class="form-group">
+                <label>需要多少年才能达成目标<span style="color:red">(年)</span>：</label>
+                <input class="form-control" name="b" placeholder="需要多少年才能达成目标">
+            </div>
+        </form>
+
+    </div>
+</div>
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        根据本金+年份+年化收益率计算最终收益
+    </div>
+    <div class="panel-body">
+        <form name='cal1' onSubmit="Cal1(this);return false;">
+            <div class="form-group">
+                <label>初始投资金额<span style="color:red">(元)</span>：</label>
+                <input class="form-control" name="a" placeholder="初始投资金额">
+            </div>
+            <div class="form-group">
+                <label>投资年限<span style="color:red">(年)</span>：</label>
+                <input class="form-control" name="b" placeholder="投资年限">
+            </div>
+            <div class="form-group">
+                <label>预期年投资收益率<span style="color:red">(%)</span>：</label>
+                <input class="form-control" name="i" placeholder="预期年投资收益率">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">计算结果</button>
+            </div>
+            <div class="form-group">
+                <label>最终收益：</label>
+                <input class="form-control" name="r" placeholder="最终收益">
+            </div>
+            </form>
+    </div>
+</div>
+
+
+
+<script language='javascript' type='text/javascript'>
+
+    function Cal0(formObj) {
+
+        if (!CheckElem(formObj.elements["a"], "初始投资金额")) return false;
+        if (!CheckElem(formObj.elements["b"], "投资年限")) return false;
+        if (!CheckElem(formObj.elements["c"], "实现本金加收益")) return false;
+
+        var a = parseFloat(formObj.a.value);
+        var b = parseFloat(formObj.b.value);
+        var c = parseFloat(formObj.c.value);
+        //var i = parseFloat(formObj.i.value)/100;
+        //alert(Math.pow(c, 1/b))
+        var i = Math.pow(c / a, 1 / b) - 1;
+        formObj.elements["i"].value = Format(i * 100) + "%";
+    }
+    function Cal1(formObj) {
+
+        if (!CheckElem(formObj.elements["a"], "初始投资金额")) return false;
+        if (!CheckElem(formObj.elements["b"], "投资年限")) return false;
+        if (!CheckElem(formObj.elements["i"], "预期年投资收益率")) return false;
+
+        var a = parseFloat(formObj.a.value);
+        var b = parseFloat(formObj.b.value);
+        //var c = parseFloat(formObj.c.value);
+        var i = parseFloat(formObj.i.value) / 100;
+
+
+        var c = Math.pow((1 + i), b) * a;
+
+        formObj.elements["r"].value = "您在" + b + "年后，投资收益为" + Format(c - a) + "元,本金与收益共为" + Format(c) + "元";
+    }
+    function Cal2(formObj) {
+
+        if (!CheckElem(formObj.elements["a"], "初始投资金额")) return false;
+        if (!CheckElem(formObj.elements["c"], "欲实现本金加收益共")) return false;
+        if (!CheckElem(formObj.elements["i"], "预期年投资收益率")) return false;
+
+        var a = parseFloat(formObj.a.value);
+        //var b = parseFloat(formObj.b.value);
+        var c = parseFloat(formObj.c.value);
+        var i = parseFloat(formObj.i.value) / 100;
+
+        var b = Math.log(c / a) / Math.log(1 + i);
+        formObj.elements["b"].value = Format(b);
+    }
+    function Format(myFloat) {
+        if (isNaN(myFloat) || myFloat.toString().toLowerCase().indexOf("infinity") > -1) {
+            return ("不合法，可能是被除数为零。");
+        } else {
+            return Math.round(myFloat * 100) / 100;
+        }
+    }
+
+    function CheckElem(curObj, msg) {
+        if (msg == null) msg = "";
+        if (curObj.value == '') {
+            alert(msg + "不可为空!");
+            curObj.focus();
+            curObj.select();
+            return false;
+        } else if (isNaN(curObj.value)) {
+            alert(msg + "必须为数字!");
+            curObj.focus();
+            curObj.select();
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+</script>

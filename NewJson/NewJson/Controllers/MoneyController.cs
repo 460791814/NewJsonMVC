@@ -17,5 +17,9 @@ namespace NewJson.Controllers
         {
             return View();
         }
+        public ActionResult InCome()
+        {
+            return View();
+        }
     }
 }

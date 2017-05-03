@@ -1694,6 +1694,7 @@
     <Content Include="Views\UI\HtmlEscape.cshtml" />
     <Content Include="Views\Admin\Meta.cshtml" />
     <Content Include="Views\Admin\Robots.cshtml" />
+    <Content Include="Views\Money\InCome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
